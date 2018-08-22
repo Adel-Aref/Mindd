@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="29" id="Bch-Pi-UEa" customClass="secondCell" customModule="Mind" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="750" height="29"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bch-Pi-UEa" id="rGQ-hB-NnF">
+                <rect key="frame" x="0.0" y="0.0" width="750" height="28.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم الصنف" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Br1-N3-C4B">
+                        <rect key="frame" x="374.5" y="3" width="375" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التصنيف" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUv-jd-Bwy">
+                        <rect key="frame" x="262.5" y="3" width="112.5" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="باركود ١" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DC-te-VvQ">
+                        <rect key="frame" x="150" y="3" width="112.5" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="باركود ٢" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsZ-os-sHv">
+                        <rect key="frame" x="60" y="3" width="90" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الكمية" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSo-to-d4l">
+                        <rect key="frame" x="8" y="3" width="52.5" height="22.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vSo-to-d4l" firstAttribute="top" secondItem="TsZ-os-sHv" secondAttribute="top" id="5nr-Os-X3w"/>
+                    <constraint firstItem="vSo-to-d4l" firstAttribute="bottom" secondItem="TsZ-os-sHv" secondAttribute="bottom" id="6d4-0i-9kF"/>
+                    <constraint firstItem="Br1-N3-C4B" firstAttribute="centerY" secondItem="rGQ-hB-NnF" secondAttribute="centerY" id="E9F-od-UmD"/>
+                    <constraint firstItem="1DC-te-VvQ" firstAttribute="leading" secondItem="TsZ-os-sHv" secondAttribute="trailing" id="NtC-YN-eG7"/>
+                    <constraint firstItem="LUv-jd-Bwy" firstAttribute="leading" secondItem="1DC-te-VvQ" secondAttribute="trailing" id="PRv-jr-KcE"/>
+                    <constraint firstItem="TsZ-os-sHv" firstAttribute="width" secondItem="rGQ-hB-NnF" secondAttribute="width" multiplier="0.12" id="QnA-f7-8Qk"/>
+                    <constraint firstItem="vSo-to-d4l" firstAttribute="height" secondItem="TsZ-os-sHv" secondAttribute="height" id="QoY-A9-kXf"/>
+                    <constraint firstItem="Br1-N3-C4B" firstAttribute="height" secondItem="rGQ-hB-NnF" secondAttribute="height" multiplier="0.8" id="Qp3-MX-fRB"/>
+                    <constraint firstItem="1DC-te-VvQ" firstAttribute="bottom" secondItem="LUv-jd-Bwy" secondAttribute="bottom" id="Rvp-Cc-6SN"/>
+                    <constraint firstItem="LUv-jd-Bwy" firstAttribute="width" secondItem="rGQ-hB-NnF" secondAttribute="width" multiplier="0.15" id="UTU-EK-J5l"/>
+                    <constraint firstItem="LUv-jd-Bwy" firstAttribute="top" secondItem="Br1-N3-C4B" secondAttribute="top" id="Yiv-Eg-PqP"/>
+                    <constraint firstItem="TsZ-os-sHv" firstAttribute="bottom" secondItem="1DC-te-VvQ" secondAttribute="bottom" id="ZsZ-1c-c87"/>
+                    <constraint firstItem="1DC-te-VvQ" firstAttribute="height" secondItem="LUv-jd-Bwy" secondAttribute="height" id="cwc-wx-qok"/>
+                    <constraint firstItem="TsZ-os-sHv" firstAttribute="height" secondItem="1DC-te-VvQ" secondAttribute="height" id="e6F-Ah-2B9"/>
+                    <constraint firstItem="TsZ-os-sHv" firstAttribute="leading" secondItem="vSo-to-d4l" secondAttribute="trailing" id="eum-VF-MXq"/>
+                    <constraint firstItem="1DC-te-VvQ" firstAttribute="top" secondItem="LUv-jd-Bwy" secondAttribute="top" id="h6V-D0-9Jx"/>
+                    <constraint firstItem="Br1-N3-C4B" firstAttribute="width" secondItem="rGQ-hB-NnF" secondAttribute="width" multiplier="0.5" id="hEF-JB-jRV"/>
+                    <constraint firstItem="TsZ-os-sHv" firstAttribute="top" secondItem="1DC-te-VvQ" secondAttribute="top" id="rZB-i1-deA"/>
+                    <constraint firstItem="LUv-jd-Bwy" firstAttribute="height" secondItem="Br1-N3-C4B" secondAttribute="height" id="rbd-L4-vpo"/>
+                    <constraint firstItem="vSo-to-d4l" firstAttribute="width" secondItem="rGQ-hB-NnF" secondAttribute="width" multiplier="0.07" id="tf4-d4-v5y"/>
+                    <constraint firstItem="LUv-jd-Bwy" firstAttribute="bottom" secondItem="Br1-N3-C4B" secondAttribute="bottom" id="uaf-c3-qeA"/>
+                    <constraint firstItem="Br1-N3-C4B" firstAttribute="leading" secondItem="LUv-jd-Bwy" secondAttribute="trailing" id="vQJ-ba-oYY"/>
+                    <constraint firstAttribute="trailing" secondItem="Br1-N3-C4B" secondAttribute="trailing" id="yQw-9c-fyL"/>
+                    <constraint firstItem="1DC-te-VvQ" firstAttribute="width" secondItem="rGQ-hB-NnF" secondAttribute="width" multiplier="0.15" id="zBu-Ve-n7P"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="E0t-t9-u4w"/>
+            <point key="canvasLocation" x="28" y="70"/>
+        </tableViewCell>
+    </objects>
+</document>
